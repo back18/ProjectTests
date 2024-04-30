@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\QuanLib.Commands\QuanLib.Commands\QuanLib.Commands.csproj" />
+  </ItemGroup>
+
 </Project>
