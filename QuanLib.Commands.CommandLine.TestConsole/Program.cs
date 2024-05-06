@@ -1,6 +1,7 @@
 ﻿using QuanLib.Commands;
 using QuanLib.Commands.CommandLine;
 using QuanLib.Consoles;
+using QuanLib.Core.Proxys;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -21,7 +22,25 @@ namespace QuanLib.Core.TestConsole
             CommandManager commandManager = BuildNotNetRuntimeCommand();
             ConsoleCommandReader consoleCommandReader = new(commandManager);
 
-            //Console.Write(new string('x', 32));
+            Console.Write(new string('x', 320));
+
+            Task.Run(() =>
+            {
+                Thread.Sleep(1000);
+                StringBuilder stringBuilder = new();
+                while (true)
+                {
+                    int count = Random.Shared.Next(1, 5);
+                    for (int i = 0; i < count; i++)
+                        stringBuilder.AppendLine($"[{DateTime.Now.ToString("HH:mm:ss:fff")}] {Guid.NewGuid()}");
+                    Console.Write(stringBuilder.ToString());
+                    Console.Write(new string('=', Random.Shared.Next(1, 32)));
+                    if (Environment.TickCount % 2 == 0)
+                        Console.WriteLine();
+                    stringBuilder.Clear();
+                    Thread.Sleep(count * 10);
+                }
+            });
 
             while (true)
             {
