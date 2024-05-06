@@ -10,7 +10,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QuanLib.Core.TestConsole
+namespace QuanLib.Commands.CommandLine.TestConsole
 {
     public static class Program
     {

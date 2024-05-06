@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QuanLib.Core.TestConsole
+namespace QuanLib.Consoles.TestConsole
 {
     public static class Program
     {
