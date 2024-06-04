@@ -5,19 +5,23 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuanLib.Core", "..\QuanLib\QuanLib.Core\QuanLib.Core.csproj", "{A6ABDD72-DC99-4B2F-8439-E850DAA82535}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLib.Core.TestConsole", "QuanLib.Core.TestConsole\QuanLib.Core.TestConsole.csproj", "{8A7E4AD2-5E3E-4352-A2BB-7A1E9214D7D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuanLib.Core.TestConsole", "QuanLib.Core.TestConsole\QuanLib.Core.TestConsole.csproj", "{8A7E4AD2-5E3E-4352-A2BB-7A1E9214D7D6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuanLib.Consoles", "..\QuanLib.Consoles\QuanLib.Consoles\QuanLib.Consoles.csproj", "{55FBF251-B4B2-4D8C-B694-88E345572AA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLib.Consoles.TestConsole", "QuanLib.Consoles.TestConsole\QuanLib.Consoles.TestConsole.csproj", "{E8B80D69-FC45-47D7-B915-453CB17391A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuanLib.Consoles.TestConsole", "QuanLib.Consoles.TestConsole\QuanLib.Consoles.TestConsole.csproj", "{E8B80D69-FC45-47D7-B915-453CB17391A1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuanLib.Commands", "..\QuanLib.Commands\QuanLib.Commands\QuanLib.Commands.csproj", "{C074A191-52D3-41F4-8D28-6CCCFB80A1F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLib.Commands.TestConsole", "QuanLib.Commands.TestConsole\QuanLib.Commands.TestConsole.csproj", "{0FB11E90-15F2-499A-9D94-A0778C8F39AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuanLib.Commands.TestConsole", "QuanLib.Commands.TestConsole\QuanLib.Commands.TestConsole.csproj", "{0FB11E90-15F2-499A-9D94-A0778C8F39AC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuanLib.Commands.CommandLine", "..\QuanLib.Commands\QuanLib.Commands.CommandLine\QuanLib.Commands.CommandLine.csproj", "{13F3C144-3877-4216-B8E5-D36CE3BEA178}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLib.Commands.CommandLine.TestConsole", "QuanLib.Commands.CommandLine.TestConsole\QuanLib.Commands.CommandLine.TestConsole.csproj", "{0D0EA02E-54E8-4E92-8790-92BBB028C405}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuanLib.Commands.CommandLine.TestConsole", "QuanLib.Commands.CommandLine.TestConsole\QuanLib.Commands.CommandLine.TestConsole.csproj", "{0D0EA02E-54E8-4E92-8790-92BBB028C405}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuanLib.VisualObject", "..\QuanLib\QuanLib.VisualObject\QuanLib.VisualObject.csproj", "{74A026E3-AF53-4AED-8808-B7DA071DFF27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLib.VisualObject.TestConsole", "QuanLib.VisualObject.TestConsole\QuanLib.VisualObject.TestConsole.csproj", "{3381A551-FFBF-4895-81D1-C11DF6F4B668}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{0D0EA02E-54E8-4E92-8790-92BBB028C405}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D0EA02E-54E8-4E92-8790-92BBB028C405}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D0EA02E-54E8-4E92-8790-92BBB028C405}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74A026E3-AF53-4AED-8808-B7DA071DFF27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74A026E3-AF53-4AED-8808-B7DA071DFF27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74A026E3-AF53-4AED-8808-B7DA071DFF27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74A026E3-AF53-4AED-8808-B7DA071DFF27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3381A551-FFBF-4895-81D1-C11DF6F4B668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3381A551-FFBF-4895-81D1-C11DF6F4B668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3381A551-FFBF-4895-81D1-C11DF6F4B668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3381A551-FFBF-4895-81D1-C11DF6F4B668}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
